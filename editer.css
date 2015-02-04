@@ -1,0 +1,69 @@
+﻿/*高级配置*/
+.advanceConfig
+{
+    background-color:#6C6C6C;width:100%;height:100%;
+}
+.advanceConfig .boxs
+{
+    float:left;background-color:#fff;padding:20px 45px;position:relative;
+}
+.advanceConfig .boxs .tabRect
+{
+    border: 1px solid #bcc6d0;overflow:hidden;float:left;
+}
+.tabRect .title
+{
+    overflow:hidden;margin:10px 0 0 10px;
+}
+.tabRect .title .num,.tabRect .tit
+{
+    display:block;float:left
+}
+.tabRect .title .num
+{
+    color:#fff;font-size:14px;background-color:#488fd2;width:25px;height:25px;line-height:25px;text-align:center;border-radius:5px;
+}
+.tabRect .title .tit
+{
+    color:#488fd2;font-size:14px;height:25px;line-height:25px;margin-left:8px;
+}
+.boxs .dragWResize, .boxs .dragSResize,.boxs .dragSeResize,.boxs .dragNeResize
+{
+    position: absolute;/*border:1px solid #bcc6d0;*/
+}
+.boxs .dragWResize
+{
+    cursor:w-resize;width:5px;/*border-style:none solid none solid;*/
+}
+.boxs .dragSResize
+{
+    cursor:s-resize;height:5px;/*border-style:solid none solid none;*/
+}
+.boxs .dragWResize:hover, .boxs .dragSResize:hover
+{
+    background-color:#488fd2;
+}
+.boxs .dragSeResize, .boxs .dragNeResize
+{
+    width:30px;height:30px;background:url(advanceResize.png) center repeat;display:none;
+}
+.boxs .dragSeResize
+{
+    cursor:se-resize;
+}
+.boxs .dragNeResize
+{
+    cursor:ne-resize;
+}
+.moveIcon
+{
+    background-image:url(path_move.png);width:30px;height:30px;
+}
+.boxs:hover .dragSeResize,.boxs:hover .dragNeResize
+{
+    display:block;
+}
+.resizing > .line
+{
+    display:none;
+}

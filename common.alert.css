@@ -1,0 +1,126 @@
+﻿.com-elastic{
+position:absolute;width:100%;height:100%;background:url(../images/black/g.png) repeat;top:0;left:0;z-index:999;overflow: hidden;
+}
+.com-elastic .com-content
+{
+	position:absolute;background-color:#fff;
+}
+.com-content .com-content-title
+{
+    height:35px;background-color:#488FD2;width:100%;
+}
+.com-content .com-content-title span
+{
+    font-size:16px;color:#fff;line-height:35px;margin-left:10px;
+}
+.com-content .com-content-control
+{
+    overflow:hidden;
+}
+.com-elastic .clearBoth
+{
+	clear:both;position:relative;
+
+}
+
+.com-elastic .com-close
+{
+	position:absolute;
+	/*background:url(../images/global/close_alert.png) center center no-repeat #65a8e8;
+	width:32px;
+	height:32px;
+        top:0;
+	right:0;*/
+    background:url(../images/global/closeGreat.png) center center no-repeat;
+	width:40px;
+	height:40px;
+	
+	cursor:pointer;
+}
+.com-elastic .com-close:hover {
+    background: url("../images/global/closeGreatHover.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+.com-elastic .com-closeIframe
+{
+    position:absolute;
+    top:5px;
+    right:15px;
+    background:url(../images/global/closeGreat.png) center center no-repeat;
+	width:40px;
+	height:40px;
+    cursor:pointer;
+}
+.com-elastic .com-closeIframe:hover
+{
+    background:url(../images/global/closeGreatHover.png) center center no-repeat;
+}
+.com-elastic .com-contentIframe
+{
+    overflow:hidden;background-color:#fff;position:relative;
+}
+.com-contentIframe p
+{
+    margin:10px;
+}
+.com-contentIframe iframe
+{
+    border:none;border-width:0;
+}
+
+.com-contentIframe .confirmMessage
+{
+    height:100%;background-color:#eef0f2;
+}
+.confirmMessage .confirmText
+{
+    font-size:16px;height:160px;text-align:center;line-height:160px;
+}
+.confirmMessage .btnLine
+{
+    overflow:hidden;
+}
+.confirmMessage .confirmMessageCheck
+{
+    float:left;margin-left:25px;cursor:pointer;
+}
+.confirmMessage .confirm, .confirmMessage .cancel
+{
+    float:right;margin-right:10px;
+}
+.confirmMessageCheck span
+{
+    margin-left:5px;
+}
+.confirmMessageCheck input
+{
+    margin-top:2px;display:block;float:left;
+}
+.confirmMessage .confirmLeftLine
+{
+    position:absolute;height:100%;width:5px;background-color:#488FD2;left:0;top:0;
+}
+.ml30
+{
+    margin-left:30px;
+}
+.mt30
+{
+    margin-top:30px;
+}
+.ml10
+{
+    margin-left:10px;
+}
+.mt10
+{
+    margin-top:10px;
+}
+.ml15
+{
+    margin-left:15px;
+}
+body
+{
+    overflow:hidden;
+}
